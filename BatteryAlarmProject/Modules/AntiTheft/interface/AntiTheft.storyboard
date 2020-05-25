@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="owc-RX-yuu">
+    <device id="retina4_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Item-->
+        <scene sceneID="Q9y-o1-aqr">
+            <objects>
+                <viewController id="owc-RX-yuu" customClass="ViewController" customModule="BatteryAlarmProject" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="qEK-91-dzw">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NI9-7Q-F7a">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pJv-qr-hXa">
+                                        <rect key="frame" x="0.0" y="0.0" width="46" height="46"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                        <inset key="imageEdgeInsets" minX="7" minY="7" maxX="7" maxY="7"/>
+                                        <state key="normal" image="Tips"/>
+                                        <connections>
+                                            <segue destination="lyO-g2-pwo" kind="presentation" id="wBT-VO-AWR"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NAb-cG-t62">
+                                        <rect key="frame" x="277" y="3" width="40" height="40"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                        <inset key="imageEdgeInsets" minX="7" minY="7" maxX="7" maxY="7"/>
+                                        <state key="normal" image="settingsicon"/>
+                                        <connections>
+                                            <segue destination="dqu-ap-Mpw" kind="presentation" modalPresentationStyle="automatic" modalTransitionStyle="flipHorizontal" id="M7J-yK-sS9"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.054901960780000002" green="0.074509803920000006" blue="0.086274509799999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="0.12941176470588234" green="0.78823529411764703" blue="0.23137254901960785" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="Bgd-lW-riY"/>
+                                </constraints>
+                            </view>
+                            <progressView opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="uuZ-o0-eBq">
+                                <rect key="frame" x="14.5" y="51" width="291" height="87"/>
+                                <color key="progressTintColor" red="0.12941176469999999" green="0.78823529410000004" blue="0.23137254900000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="trackTintColor" red="0.12156862745098039" green="0.13725490196078433" blue="0.15294117647058825" alpha="1" colorSpace="calibratedRGB"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="10.5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </progressView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Activate Alarm while charger is unplugged" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DEy-mY-VAL">
+                                <rect key="frame" x="47" y="175" width="226.5" height="15"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="DEy-mY-VAL" secondAttribute="height" multiplier="226:15" id="54S-xI-NNH"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nNI-bK-HL9">
+                                <rect key="frame" x="37.5" y="405" width="245" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="nNI-bK-HL9" secondAttribute="height" multiplier="245:31" id="bh1-5i-fPj"/>
+                                </constraints>
+                                <string key="text">Charger device to protect. Unplug will turn on
+the alarm. Exit will turn off protection</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Alarm_Ad" translatesAutoresizingMaskIntoConstraints="NO" id="KIK-1C-wOn">
+                                <rect key="frame" x="18.5" y="220" width="283" height="148"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="KIK-1C-wOn" secondAttribute="height" multiplier="283:148" id="OJT-WQ-YMY"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VQD-ov-QMc" customClass="DesignableButton" customModule="BatteryAlarmProject" customModuleProvider="target">
+                                <rect key="frame" x="20" y="455" width="280" height="38"/>
+                                <color key="backgroundColor" red="0.12941176469999999" green="0.78823529410000004" blue="0.23137254900000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="VQD-ov-QMc" secondAttribute="height" multiplier="140:19" id="4wg-5e-NwK"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                                <state key="normal" title="ACTIVATE ALARM">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="6.5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qin-G6-Dem">
+                                <rect key="frame" x="0.0" y="525" width="320" height="45"/>
+                                <color key="backgroundColor" red="1" green="0.37647058823529411" blue="0.37647058823529411" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="r2U-vi-sSM"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.054901960780000002" green="0.074509803920000006" blue="0.086274509799999996" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="nNI-bK-HL9" firstAttribute="top" secondItem="gg5-AE-UkQ" secondAttribute="bottom" multiplier="405:568" id="1Jf-Nl-OCZ"/>
+                            <constraint firstItem="KIK-1C-wOn" firstAttribute="centerX" secondItem="gg5-AE-UkQ" secondAttribute="centerX" id="21X-ys-Qmh"/>
+                            <constraint firstItem="uuZ-o0-eBq" firstAttribute="height" secondItem="qEK-91-dzw" secondAttribute="height" multiplier="87:568" id="516-rK-fnW"/>
+                            <constraint firstItem="uuZ-o0-eBq" firstAttribute="top" secondItem="NI9-7Q-F7a" secondAttribute="bottom" multiplier="50:44" constant="1" id="7ad-xa-7NT"/>
+                            <constraint firstItem="DEy-mY-VAL" firstAttribute="width" secondItem="qEK-91-dzw" secondAttribute="width" multiplier="0.707812" id="Dd2-Ce-ac8"/>
+                            <constraint firstItem="DEy-mY-VAL" firstAttribute="top" secondItem="gg5-AE-UkQ" secondAttribute="bottom" multiplier="175:568" id="EuQ-uN-S0w"/>
+                            <constraint firstItem="uuZ-o0-eBq" firstAttribute="width" secondItem="qEK-91-dzw" secondAttribute="width" multiplier="0.909375" id="GgN-u9-xAS"/>
+                            <constraint firstItem="NI9-7Q-F7a" firstAttribute="width" secondItem="qEK-91-dzw" secondAttribute="width" id="HtM-gn-y9d"/>
+                            <constraint firstItem="uuZ-o0-eBq" firstAttribute="centerX" secondItem="gg5-AE-UkQ" secondAttribute="centerX" id="KIA-x9-Mdl"/>
+                            <constraint firstItem="qin-G6-Dem" firstAttribute="width" secondItem="qEK-91-dzw" secondAttribute="width" id="Unb-la-Zee"/>
+                            <constraint firstItem="qin-G6-Dem" firstAttribute="top" secondItem="gg5-AE-UkQ" secondAttribute="bottom" multiplier="525:568" id="Wan-mY-hpc"/>
+                            <constraint firstItem="VQD-ov-QMc" firstAttribute="width" secondItem="qEK-91-dzw" secondAttribute="width" multiplier="0.875" id="YAx-Wu-tOs"/>
+                            <constraint firstItem="NI9-7Q-F7a" firstAttribute="top" secondItem="gg5-AE-UkQ" secondAttribute="top" id="ZeM-NV-Jqb"/>
+                            <constraint firstItem="nNI-bK-HL9" firstAttribute="centerX" secondItem="gg5-AE-UkQ" secondAttribute="centerX" id="aAr-Uz-ax9"/>
+                            <constraint firstItem="DEy-mY-VAL" firstAttribute="centerX" secondItem="gg5-AE-UkQ" secondAttribute="centerX" id="ayA-XN-RlZ"/>
+                            <constraint firstItem="VQD-ov-QMc" firstAttribute="top" secondItem="gg5-AE-UkQ" secondAttribute="bottom" multiplier="455:568" id="g2H-G7-f34"/>
+                            <constraint firstItem="KIK-1C-wOn" firstAttribute="top" secondItem="gg5-AE-UkQ" secondAttribute="bottom" multiplier="220:568" id="peP-0O-d4f"/>
+                            <constraint firstItem="qin-G6-Dem" firstAttribute="centerX" secondItem="gg5-AE-UkQ" secondAttribute="centerX" id="piw-q7-rNb"/>
+                            <constraint firstItem="NI9-7Q-F7a" firstAttribute="centerX" secondItem="gg5-AE-UkQ" secondAttribute="centerX" id="qiK-uE-LpR"/>
+                            <constraint firstItem="VQD-ov-QMc" firstAttribute="centerX" secondItem="gg5-AE-UkQ" secondAttribute="centerX" id="w3f-5d-aAt"/>
+                            <constraint firstItem="nNI-bK-HL9" firstAttribute="width" secondItem="qEK-91-dzw" secondAttribute="width" multiplier="0.765625" id="yJi-6y-ufO"/>
+                            <constraint firstItem="KIK-1C-wOn" firstAttribute="width" secondItem="qEK-91-dzw" secondAttribute="width" multiplier="0.884375" id="zMr-sr-Akx"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="gg5-AE-UkQ"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="947-gf-lX4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IOd-8G-Jzc" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-360" y="-238.73239436619718"/>
+        </scene>
+        <!--Settings-->
+        <scene sceneID="vYR-sW-jMp">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Settings" id="dqu-ap-Mpw" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2FU-qS-RkP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="260" y="-485"/>
+        </scene>
+        <!--InAppScreens-->
+        <scene sceneID="AQS-5u-2nO">
+            <objects>
+                <viewControllerPlaceholder storyboardName="InAppScreens" id="lyO-g2-pwo" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="M9s-ye-tw8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="376" y="-259"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Alarm_Ad" width="566" height="296"/>
+        <image name="Tips" width="46" height="46"/>
+        <image name="settingsicon" width="40" height="40"/>
+    </resources>
+</document>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="GyA-kl-6YH">
+    <device id="retina4_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="qZM-UO-13B">
+            <objects>
+                <viewController id="GyA-kl-6YH" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="0li-29-dLF">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100%" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zDD-jf-vdD">
+                                <rect key="frame" x="52" y="210" width="216" height="121"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="zDD-jf-vdD" secondAttribute="height" multiplier="216:121" id="IXF-ku-9ny"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="124"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3pV-gL-GNg" customClass="DesignableButton" customModule="BatteryAlarmProject" customModuleProvider="target">
+                                <rect key="frame" x="20" y="453" width="280" height="44"/>
+                                <color key="backgroundColor" red="0.12941176469999999" green="0.78823529410000004" blue="0.23137254900000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="3pV-gL-GNg" secondAttribute="height" multiplier="70:11" id="PEd-Bs-9sP"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
+                                <state key="normal" title="UNLOCK NOW $2.99">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="7"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dJB-fF-1H0">
+                                <rect key="frame" x="0.0" y="523" width="320" height="45"/>
+                                <color key="backgroundColor" red="1" green="0.37647058820000001" blue="0.37647058820000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="281-vz-WsL"/>
+                                </constraints>
+                            </view>
+                            <view alpha="0.0" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qlJ-jf-M42">
+                                <rect key="frame" x="0.0" y="560" width="320" height="568"/>
+                                <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Unplug your power cable." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Mag-XE-VEF">
+                                <rect key="frame" x="56" y="50" width="208" height="26"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Mag-XE-VEF" secondAttribute="height" multiplier="8:1" id="Twq-rA-Fo0"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Your battery fully charged" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kZI-ge-apg">
+                                <rect key="frame" x="77.5" y="335" width="165" height="19"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="kZI-ge-apg" secondAttribute="height" multiplier="165:19" id="y3I-GP-q4T"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="28"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Alarm_Ad" translatesAutoresizingMaskIntoConstraints="NO" id="Zrn-xV-r7d">
+                                <rect key="frame" x="18.5" y="362" width="283" height="148"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Zrn-xV-r7d" secondAttribute="height" multiplier="283:148" id="U6A-md-KxR"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Mag-XE-VEF" firstAttribute="top" secondItem="4vv-kL-pK8" secondAttribute="bottom" multiplier="50:568" id="1SH-DG-exL"/>
+                            <constraint firstItem="dJB-fF-1H0" firstAttribute="width" secondItem="0li-29-dLF" secondAttribute="width" id="2MH-8R-Ift"/>
+                            <constraint firstItem="3pV-gL-GNg" firstAttribute="top" secondItem="4vv-kL-pK8" secondAttribute="bottom" multiplier="453:568" id="5lw-Ck-1zb"/>
+                            <constraint firstItem="3pV-gL-GNg" firstAttribute="centerX" secondItem="4vv-kL-pK8" secondAttribute="centerX" id="Es5-so-eig"/>
+                            <constraint firstItem="Zrn-xV-r7d" firstAttribute="centerX" secondItem="4vv-kL-pK8" secondAttribute="centerX" id="Has-5P-Sm5"/>
+                            <constraint firstItem="zDD-jf-vdD" firstAttribute="centerX" secondItem="4vv-kL-pK8" secondAttribute="centerX" id="J1t-TK-xkR"/>
+                            <constraint firstItem="Zrn-xV-r7d" firstAttribute="top" secondItem="4vv-kL-pK8" secondAttribute="bottom" multiplier="362:568" id="LyK-Zd-Sgk"/>
+                            <constraint firstItem="qlJ-jf-M42" firstAttribute="top" secondItem="4vv-kL-pK8" secondAttribute="top" constant="560" id="M4j-tq-7BS"/>
+                            <constraint firstItem="qlJ-jf-M42" firstAttribute="centerX" secondItem="4vv-kL-pK8" secondAttribute="centerX" id="NJ2-KL-sih"/>
+                            <constraint firstItem="kZI-ge-apg" firstAttribute="width" secondItem="0li-29-dLF" secondAttribute="width" multiplier="0.515625" id="UwT-ih-xKZ"/>
+                            <constraint firstItem="Mag-XE-VEF" firstAttribute="width" secondItem="0li-29-dLF" secondAttribute="width" multiplier="0.65" id="UxF-oV-UYS"/>
+                            <constraint firstItem="zDD-jf-vdD" firstAttribute="top" secondItem="4vv-kL-pK8" secondAttribute="bottom" multiplier="210:568" id="WRl-0d-ZsR"/>
+                            <constraint firstItem="Mag-XE-VEF" firstAttribute="centerX" secondItem="4vv-kL-pK8" secondAttribute="centerX" id="Y5f-wf-Sn3"/>
+                            <constraint firstItem="dJB-fF-1H0" firstAttribute="centerX" secondItem="4vv-kL-pK8" secondAttribute="centerX" id="bbl-HO-8Bz"/>
+                            <constraint firstItem="dJB-fF-1H0" firstAttribute="bottom" secondItem="4vv-kL-pK8" secondAttribute="bottom" id="bvN-xs-MRR"/>
+                            <constraint firstItem="zDD-jf-vdD" firstAttribute="width" secondItem="0li-29-dLF" secondAttribute="width" multiplier="0.675" id="f22-qq-ck8"/>
+                            <constraint firstItem="qlJ-jf-M42" firstAttribute="height" secondItem="0li-29-dLF" secondAttribute="height" id="i13-dK-JbW"/>
+                            <constraint firstItem="qlJ-jf-M42" firstAttribute="width" secondItem="0li-29-dLF" secondAttribute="width" id="lQB-ha-9jj"/>
+                            <constraint firstItem="3pV-gL-GNg" firstAttribute="width" secondItem="0li-29-dLF" secondAttribute="width" multiplier="0.875" id="mIb-ZT-PHf"/>
+                            <constraint firstItem="kZI-ge-apg" firstAttribute="top" secondItem="4vv-kL-pK8" secondAttribute="bottom" multiplier="335:568" id="qQ8-4b-wJD"/>
+                            <constraint firstItem="kZI-ge-apg" firstAttribute="centerX" secondItem="4vv-kL-pK8" secondAttribute="centerX" id="tyU-on-CgO"/>
+                            <constraint firstItem="Zrn-xV-r7d" firstAttribute="width" secondItem="0li-29-dLF" secondAttribute="width" multiplier="0.884375" id="yui-A9-R9O"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="4vv-kL-pK8"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kF3-yn-4Op" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="95.625" y="95.070422535211264"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Alarm_Ad" width="566" height="296"/>
+    </resources>
+</document>

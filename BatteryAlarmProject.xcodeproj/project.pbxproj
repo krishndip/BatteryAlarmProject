@@ -1,0 +1,808 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9E3F897E2467C551003C69A3 /* BatteryMain.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E3F897D2467C551003C69A3 /* BatteryMain.storyboard */; };
+		9E3F89802467CC38003C69A3 /* Settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E3F897F2467CC38003C69A3 /* Settings.storyboard */; };
+		9E4B66272479583D00CCF143 /* DismissSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4B66262479583D00CCF143 /* DismissSegue.swift */; };
+		9E4B662924795CF600CCF143 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4B662824795CF600CCF143 /* SettingsView.swift */; };
+		9E4B662B2479612F00CCF143 /* InAppHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E4B662A2479612F00CCF143 /* InAppHeader.xib */; };
+		9ECDE1A5245D73F900DE3983 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ECDE1A4245D73F900DE3983 /* AppDelegate.swift */; };
+		9ECDE1A7245D73F900DE3983 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ECDE1A6245D73F900DE3983 /* SceneDelegate.swift */; };
+		9ECDE1A9245D73F900DE3983 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ECDE1A8245D73F900DE3983 /* ViewController.swift */; };
+		9ECDE1AC245D73F900DE3983 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9ECDE1AA245D73F900DE3983 /* Main.storyboard */; };
+		9ECDE1AF245D73F900DE3983 /* BatteryAlarmProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9ECDE1AD245D73F900DE3983 /* BatteryAlarmProject.xcdatamodeld */; };
+		9ECDE1B1245D73FB00DE3983 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9ECDE1B0245D73FB00DE3983 /* Assets.xcassets */; };
+		9ECDE1B4245D73FB00DE3983 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9ECDE1B2245D73FB00DE3983 /* LaunchScreen.storyboard */; };
+		9ECDE1BF245D73FB00DE3983 /* BatteryAlarmProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ECDE1BE245D73FB00DE3983 /* BatteryAlarmProjectTests.swift */; };
+		9ECDE1CA245D73FB00DE3983 /* BatteryAlarmProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ECDE1C9245D73FB00DE3983 /* BatteryAlarmProjectUITests.swift */; };
+		9ECDE1E9245D759C00DE3983 /* InAppScreens.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9ECDE1E8245D759C00DE3983 /* InAppScreens.storyboard */; };
+		9ECDE1EC245D82F800DE3983 /* ExtensionHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ECDE1EB245D82F800DE3983 /* ExtensionHelper.swift */; };
+		9ECDE1EE245EAC5A00DE3983 /* InAppImages.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9ECDE1ED245EAC5A00DE3983 /* InAppImages.xcassets */; };
+		9ECDE1F0245EC6B700DE3983 /* AntiTheft.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9ECDE1EF245EC6B700DE3983 /* AntiTheft.storyboard */; };
+		9ECDE1F2245EC75200DE3983 /* AntiTheftImages.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9ECDE1F1245EC75200DE3983 /* AntiTheftImages.xcassets */; };
+		9ED5D853247962BE003C5A45 /* InAppHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED5D852247962BE003C5A45 /* InAppHeader.swift */; };
+		9ED5D85524796638003C5A45 /* InAppController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED5D85424796638003C5A45 /* InAppController.swift */; };
+		9ED5D857247BF501003C5A45 /* SettingsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED5D856247BF501003C5A45 /* SettingsCell.swift */; };
+		9ED5D859247BF532003C5A45 /* SettingsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9ED5D858247BF532003C5A45 /* SettingsCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9ECDE1BB245D73FB00DE3983 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9ECDE199245D73F900DE3983 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9ECDE1A0245D73F900DE3983;
+			remoteInfo = BatteryAlarmProject;
+		};
+		9ECDE1C6245D73FB00DE3983 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9ECDE199245D73F900DE3983 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9ECDE1A0245D73F900DE3983;
+			remoteInfo = BatteryAlarmProject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9E3F897D2467C551003C69A3 /* BatteryMain.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BatteryMain.storyboard; sourceTree = "<group>"; };
+		9E3F897F2467CC38003C69A3 /* Settings.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Settings.storyboard; sourceTree = "<group>"; };
+		9E4B66262479583D00CCF143 /* DismissSegue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DismissSegue.swift; sourceTree = "<group>"; };
+		9E4B662824795CF600CCF143 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		9E4B662A2479612F00CCF143 /* InAppHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InAppHeader.xib; sourceTree = "<group>"; };
+		9ECDE1A1245D73F900DE3983 /* BatteryAlarmProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BatteryAlarmProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9ECDE1A4245D73F900DE3983 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9ECDE1A6245D73F900DE3983 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9ECDE1A8245D73F900DE3983 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9ECDE1AB245D73F900DE3983 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9ECDE1AE245D73F900DE3983 /* BatteryAlarmProject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BatteryAlarmProject.xcdatamodel; sourceTree = "<group>"; };
+		9ECDE1B0245D73FB00DE3983 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9ECDE1B3245D73FB00DE3983 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9ECDE1B5245D73FB00DE3983 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9ECDE1BA245D73FB00DE3983 /* BatteryAlarmProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BatteryAlarmProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9ECDE1BE245D73FB00DE3983 /* BatteryAlarmProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatteryAlarmProjectTests.swift; sourceTree = "<group>"; };
+		9ECDE1C0245D73FB00DE3983 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9ECDE1C5245D73FB00DE3983 /* BatteryAlarmProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BatteryAlarmProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9ECDE1C9245D73FB00DE3983 /* BatteryAlarmProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatteryAlarmProjectUITests.swift; sourceTree = "<group>"; };
+		9ECDE1CB245D73FB00DE3983 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9ECDE1E8245D759C00DE3983 /* InAppScreens.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = InAppScreens.storyboard; sourceTree = "<group>"; };
+		9ECDE1EB245D82F800DE3983 /* ExtensionHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionHelper.swift; sourceTree = "<group>"; };
+		9ECDE1ED245EAC5A00DE3983 /* InAppImages.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = InAppImages.xcassets; sourceTree = "<group>"; };
+		9ECDE1EF245EC6B700DE3983 /* AntiTheft.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AntiTheft.storyboard; sourceTree = "<group>"; };
+		9ECDE1F1245EC75200DE3983 /* AntiTheftImages.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = AntiTheftImages.xcassets; sourceTree = "<group>"; };
+		9ED5D852247962BE003C5A45 /* InAppHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InAppHeader.swift; sourceTree = "<group>"; };
+		9ED5D85424796638003C5A45 /* InAppController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InAppController.swift; sourceTree = "<group>"; };
+		9ED5D856247BF501003C5A45 /* SettingsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsCell.swift; sourceTree = "<group>"; };
+		9ED5D858247BF532003C5A45 /* SettingsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingsCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9ECDE19E245D73F900DE3983 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9ECDE1B7245D73FB00DE3983 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9ECDE1C2245D73FB00DE3983 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9ECDE198245D73F900DE3983 = {
+			isa = PBXGroup;
+			children = (
+				9ECDE1A3245D73F900DE3983 /* BatteryAlarmProject */,
+				9ECDE1BD245D73FB00DE3983 /* BatteryAlarmProjectTests */,
+				9ECDE1C8245D73FB00DE3983 /* BatteryAlarmProjectUITests */,
+				9ECDE1A2245D73F900DE3983 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9ECDE1A2245D73F900DE3983 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9ECDE1A1245D73F900DE3983 /* BatteryAlarmProject.app */,
+				9ECDE1BA245D73FB00DE3983 /* BatteryAlarmProjectTests.xctest */,
+				9ECDE1C5245D73FB00DE3983 /* BatteryAlarmProjectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9ECDE1A3245D73F900DE3983 /* BatteryAlarmProject */ = {
+			isa = PBXGroup;
+			children = (
+				9ECDE1D7245D757700DE3983 /* Modules */,
+				9ECDE1A4245D73F900DE3983 /* AppDelegate.swift */,
+				9ECDE1A6245D73F900DE3983 /* SceneDelegate.swift */,
+				9ECDE1A8245D73F900DE3983 /* ViewController.swift */,
+				9ECDE1AA245D73F900DE3983 /* Main.storyboard */,
+				9ECDE1B0245D73FB00DE3983 /* Assets.xcassets */,
+				9ECDE1B2245D73FB00DE3983 /* LaunchScreen.storyboard */,
+				9ECDE1B5245D73FB00DE3983 /* Info.plist */,
+				9ECDE1AD245D73F900DE3983 /* BatteryAlarmProject.xcdatamodeld */,
+			);
+			path = BatteryAlarmProject;
+			sourceTree = "<group>";
+		};
+		9ECDE1BD245D73FB00DE3983 /* BatteryAlarmProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				9ECDE1BE245D73FB00DE3983 /* BatteryAlarmProjectTests.swift */,
+				9ECDE1C0245D73FB00DE3983 /* Info.plist */,
+			);
+			path = BatteryAlarmProjectTests;
+			sourceTree = "<group>";
+		};
+		9ECDE1C8245D73FB00DE3983 /* BatteryAlarmProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9ECDE1C9245D73FB00DE3983 /* BatteryAlarmProjectUITests.swift */,
+				9ECDE1CB245D73FB00DE3983 /* Info.plist */,
+			);
+			path = BatteryAlarmProjectUITests;
+			sourceTree = "<group>";
+		};
+		9ECDE1D7245D757700DE3983 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				9ECDE1EA245D82E500DE3983 /* OtherHelpers */,
+				9ECDE1D8245D757700DE3983 /* Settings */,
+				9ECDE1DC245D757700DE3983 /* InApp */,
+				9ECDE1E0245D757700DE3983 /* AntiTheft */,
+				9ECDE1E4245D757700DE3983 /* BatteryMain */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		9ECDE1D8245D757700DE3983 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				9ECDE1D9245D757700DE3983 /* interface */,
+				9ECDE1DA245D757700DE3983 /* images */,
+				9ECDE1DB245D757700DE3983 /* classes */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		9ECDE1D9245D757700DE3983 /* interface */ = {
+			isa = PBXGroup;
+			children = (
+				9E3F897F2467CC38003C69A3 /* Settings.storyboard */,
+				9ED5D858247BF532003C5A45 /* SettingsCell.xib */,
+			);
+			path = interface;
+			sourceTree = "<group>";
+		};
+		9ECDE1DA245D757700DE3983 /* images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		9ECDE1DB245D757700DE3983 /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				9E4B662824795CF600CCF143 /* SettingsView.swift */,
+				9ED5D856247BF501003C5A45 /* SettingsCell.swift */,
+			);
+			path = classes;
+			sourceTree = "<group>";
+		};
+		9ECDE1DC245D757700DE3983 /* InApp */ = {
+			isa = PBXGroup;
+			children = (
+				9ECDE1DD245D757700DE3983 /* interface */,
+				9ECDE1DE245D757700DE3983 /* images */,
+				9ECDE1DF245D757700DE3983 /* classes */,
+			);
+			path = InApp;
+			sourceTree = "<group>";
+		};
+		9ECDE1DD245D757700DE3983 /* interface */ = {
+			isa = PBXGroup;
+			children = (
+				9ECDE1E8245D759C00DE3983 /* InAppScreens.storyboard */,
+				9E4B662A2479612F00CCF143 /* InAppHeader.xib */,
+			);
+			path = interface;
+			sourceTree = "<group>";
+		};
+		9ECDE1DE245D757700DE3983 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				9ECDE1ED245EAC5A00DE3983 /* InAppImages.xcassets */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		9ECDE1DF245D757700DE3983 /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				9ED5D852247962BE003C5A45 /* InAppHeader.swift */,
+				9ED5D85424796638003C5A45 /* InAppController.swift */,
+			);
+			path = classes;
+			sourceTree = "<group>";
+		};
+		9ECDE1E0245D757700DE3983 /* AntiTheft */ = {
+			isa = PBXGroup;
+			children = (
+				9ECDE1E1245D757700DE3983 /* interface */,
+				9ECDE1E2245D757700DE3983 /* images */,
+				9ECDE1E3245D757700DE3983 /* classes */,
+			);
+			path = AntiTheft;
+			sourceTree = "<group>";
+		};
+		9ECDE1E1245D757700DE3983 /* interface */ = {
+			isa = PBXGroup;
+			children = (
+				9ECDE1EF245EC6B700DE3983 /* AntiTheft.storyboard */,
+			);
+			path = interface;
+			sourceTree = "<group>";
+		};
+		9ECDE1E2245D757700DE3983 /* images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		9ECDE1E3245D757700DE3983 /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				9ECDE1F1245EC75200DE3983 /* AntiTheftImages.xcassets */,
+			);
+			path = classes;
+			sourceTree = "<group>";
+		};
+		9ECDE1E4245D757700DE3983 /* BatteryMain */ = {
+			isa = PBXGroup;
+			children = (
+				9ECDE1E5245D757700DE3983 /* interface */,
+				9ECDE1E6245D757700DE3983 /* images */,
+				9ECDE1E7245D757700DE3983 /* classes */,
+			);
+			path = BatteryMain;
+			sourceTree = "<group>";
+		};
+		9ECDE1E5245D757700DE3983 /* interface */ = {
+			isa = PBXGroup;
+			children = (
+				9E3F897D2467C551003C69A3 /* BatteryMain.storyboard */,
+			);
+			path = interface;
+			sourceTree = "<group>";
+		};
+		9ECDE1E6245D757700DE3983 /* images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		9ECDE1E7245D757700DE3983 /* classes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = classes;
+			sourceTree = "<group>";
+		};
+		9ECDE1EA245D82E500DE3983 /* OtherHelpers */ = {
+			isa = PBXGroup;
+			children = (
+				9ECDE1EB245D82F800DE3983 /* ExtensionHelper.swift */,
+				9E4B66262479583D00CCF143 /* DismissSegue.swift */,
+			);
+			path = OtherHelpers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9ECDE1A0245D73F900DE3983 /* BatteryAlarmProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9ECDE1CE245D73FB00DE3983 /* Build configuration list for PBXNativeTarget "BatteryAlarmProject" */;
+			buildPhases = (
+				9ECDE19D245D73F900DE3983 /* Sources */,
+				9ECDE19E245D73F900DE3983 /* Frameworks */,
+				9ECDE19F245D73F900DE3983 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BatteryAlarmProject;
+			productName = BatteryAlarmProject;
+			productReference = 9ECDE1A1245D73F900DE3983 /* BatteryAlarmProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9ECDE1B9245D73FB00DE3983 /* BatteryAlarmProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9ECDE1D1245D73FB00DE3983 /* Build configuration list for PBXNativeTarget "BatteryAlarmProjectTests" */;
+			buildPhases = (
+				9ECDE1B6245D73FB00DE3983 /* Sources */,
+				9ECDE1B7245D73FB00DE3983 /* Frameworks */,
+				9ECDE1B8245D73FB00DE3983 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9ECDE1BC245D73FB00DE3983 /* PBXTargetDependency */,
+			);
+			name = BatteryAlarmProjectTests;
+			productName = BatteryAlarmProjectTests;
+			productReference = 9ECDE1BA245D73FB00DE3983 /* BatteryAlarmProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9ECDE1C4245D73FB00DE3983 /* BatteryAlarmProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9ECDE1D4245D73FB00DE3983 /* Build configuration list for PBXNativeTarget "BatteryAlarmProjectUITests" */;
+			buildPhases = (
+				9ECDE1C1245D73FB00DE3983 /* Sources */,
+				9ECDE1C2245D73FB00DE3983 /* Frameworks */,
+				9ECDE1C3245D73FB00DE3983 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9ECDE1C7245D73FB00DE3983 /* PBXTargetDependency */,
+			);
+			name = BatteryAlarmProjectUITests;
+			productName = BatteryAlarmProjectUITests;
+			productReference = 9ECDE1C5245D73FB00DE3983 /* BatteryAlarmProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9ECDE199245D73F900DE3983 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Karan ";
+				TargetAttributes = {
+					9ECDE1A0245D73F900DE3983 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					9ECDE1B9245D73FB00DE3983 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 9ECDE1A0245D73F900DE3983;
+					};
+					9ECDE1C4245D73FB00DE3983 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 9ECDE1A0245D73F900DE3983;
+					};
+				};
+			};
+			buildConfigurationList = 9ECDE19C245D73F900DE3983 /* Build configuration list for PBXProject "BatteryAlarmProject" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9ECDE198245D73F900DE3983;
+			productRefGroup = 9ECDE1A2245D73F900DE3983 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9ECDE1A0245D73F900DE3983 /* BatteryAlarmProject */,
+				9ECDE1B9245D73FB00DE3983 /* BatteryAlarmProjectTests */,
+				9ECDE1C4245D73FB00DE3983 /* BatteryAlarmProjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9ECDE19F245D73F900DE3983 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ECDE1F0245EC6B700DE3983 /* AntiTheft.storyboard in Resources */,
+				9ECDE1EE245EAC5A00DE3983 /* InAppImages.xcassets in Resources */,
+				9ECDE1B4245D73FB00DE3983 /* LaunchScreen.storyboard in Resources */,
+				9ED5D859247BF532003C5A45 /* SettingsCell.xib in Resources */,
+				9E4B662B2479612F00CCF143 /* InAppHeader.xib in Resources */,
+				9ECDE1F2245EC75200DE3983 /* AntiTheftImages.xcassets in Resources */,
+				9ECDE1E9245D759C00DE3983 /* InAppScreens.storyboard in Resources */,
+				9E3F897E2467C551003C69A3 /* BatteryMain.storyboard in Resources */,
+				9E3F89802467CC38003C69A3 /* Settings.storyboard in Resources */,
+				9ECDE1B1245D73FB00DE3983 /* Assets.xcassets in Resources */,
+				9ECDE1AC245D73F900DE3983 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9ECDE1B8245D73FB00DE3983 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9ECDE1C3245D73FB00DE3983 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9ECDE19D245D73F900DE3983 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E4B662924795CF600CCF143 /* SettingsView.swift in Sources */,
+				9ECDE1A9245D73F900DE3983 /* ViewController.swift in Sources */,
+				9ECDE1EC245D82F800DE3983 /* ExtensionHelper.swift in Sources */,
+				9ECDE1A5245D73F900DE3983 /* AppDelegate.swift in Sources */,
+				9ED5D857247BF501003C5A45 /* SettingsCell.swift in Sources */,
+				9ECDE1AF245D73F900DE3983 /* BatteryAlarmProject.xcdatamodeld in Sources */,
+				9ED5D853247962BE003C5A45 /* InAppHeader.swift in Sources */,
+				9E4B66272479583D00CCF143 /* DismissSegue.swift in Sources */,
+				9ED5D85524796638003C5A45 /* InAppController.swift in Sources */,
+				9ECDE1A7245D73F900DE3983 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9ECDE1B6245D73FB00DE3983 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ECDE1BF245D73FB00DE3983 /* BatteryAlarmProjectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9ECDE1C1245D73FB00DE3983 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ECDE1CA245D73FB00DE3983 /* BatteryAlarmProjectUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9ECDE1BC245D73FB00DE3983 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9ECDE1A0245D73F900DE3983 /* BatteryAlarmProject */;
+			targetProxy = 9ECDE1BB245D73FB00DE3983 /* PBXContainerItemProxy */;
+		};
+		9ECDE1C7245D73FB00DE3983 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9ECDE1A0245D73F900DE3983 /* BatteryAlarmProject */;
+			targetProxy = 9ECDE1C6245D73FB00DE3983 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9ECDE1AA245D73F900DE3983 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9ECDE1AB245D73F900DE3983 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9ECDE1B2245D73FB00DE3983 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9ECDE1B3245D73FB00DE3983 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9ECDE1CC245D73FB00DE3983 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9ECDE1CD245D73FB00DE3983 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9ECDE1CF245D73FB00DE3983 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W58FXXM65R;
+				INFOPLIST_FILE = BatteryAlarmProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.iOS.BatteryAlarmProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9ECDE1D0245D73FB00DE3983 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W58FXXM65R;
+				INFOPLIST_FILE = BatteryAlarmProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.iOS.BatteryAlarmProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9ECDE1D2245D73FB00DE3983 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BatteryAlarmProjectTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.iOS.BatteryAlarmProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BatteryAlarmProject.app/BatteryAlarmProject";
+			};
+			name = Debug;
+		};
+		9ECDE1D3245D73FB00DE3983 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BatteryAlarmProjectTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.iOS.BatteryAlarmProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BatteryAlarmProject.app/BatteryAlarmProject";
+			};
+			name = Release;
+		};
+		9ECDE1D5245D73FB00DE3983 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BatteryAlarmProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.iOS.BatteryAlarmProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BatteryAlarmProject;
+			};
+			name = Debug;
+		};
+		9ECDE1D6245D73FB00DE3983 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BatteryAlarmProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.iOS.BatteryAlarmProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BatteryAlarmProject;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9ECDE19C245D73F900DE3983 /* Build configuration list for PBXProject "BatteryAlarmProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9ECDE1CC245D73FB00DE3983 /* Debug */,
+				9ECDE1CD245D73FB00DE3983 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9ECDE1CE245D73FB00DE3983 /* Build configuration list for PBXNativeTarget "BatteryAlarmProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9ECDE1CF245D73FB00DE3983 /* Debug */,
+				9ECDE1D0245D73FB00DE3983 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9ECDE1D1245D73FB00DE3983 /* Build configuration list for PBXNativeTarget "BatteryAlarmProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9ECDE1D2245D73FB00DE3983 /* Debug */,
+				9ECDE1D3245D73FB00DE3983 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9ECDE1D4245D73FB00DE3983 /* Build configuration list for PBXNativeTarget "BatteryAlarmProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9ECDE1D5245D73FB00DE3983 /* Debug */,
+				9ECDE1D6245D73FB00DE3983 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9ECDE1AD245D73F900DE3983 /* BatteryAlarmProject.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9ECDE1AE245D73F900DE3983 /* BatteryAlarmProject.xcdatamodel */,
+			);
+			currentVersion = 9ECDE1AE245D73F900DE3983 /* BatteryAlarmProject.xcdatamodel */;
+			path = BatteryAlarmProject.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9ECDE199245D73F900DE3983 /* Project object */;
+}
